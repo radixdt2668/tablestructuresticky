@@ -1,0 +1,9 @@
+body{margin: 0; padding:0;}
+*{box-sizing: border-box;}
+/* table{height: 600px;} */
+.container{max-width: 1200px;  margin: 0 auto; padding-left: 20px; padding-right: 20px;  overflow-x: auto; height: 300px;}
+th{padding: 10px 25px; position: sticky; top: 0; background-color: white; border-right: 1px solid black; z-index: 5; }
+td{padding: 10px 25px;}
+tr:nth-child(odd){background-color: lightgray;}
+tr:nth-child(even){background-color: lightcoral;}
+table{border-collapse: collapse;}
